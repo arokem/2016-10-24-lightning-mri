@@ -42,9 +42,14 @@ Making medicine
 <small><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3978637/">Hood and Auffray (2013)</a></small>
 
 ---
-### Human white matter
 
-<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/cc_tube_movie.mov"/> </video>
+### The Human Connectome Project
+
+### A brain "observatory"
+
+- More than 1,000 participants
+- High-quality measurements of MRI
+- Genetics, cognitive measures, etc...
 
 ---
 
@@ -52,6 +57,10 @@ Making medicine
 
 <video id="mri-zstack" preload="auto" width="70%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/dMRI-signal-movie.mp4"/></video>
 
+---
+### Human white matter
+
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/cc_tube_movie.mov"/> </video>
 
 ---
 
@@ -59,9 +68,7 @@ layout: true
 
 ---
 
-
 ## Models of the white matter
-
 
 <div style="position: absolute; left: 500px; top: 650px;" >
   <small>Basser, Mattielo and Le Bihan (1994)</small>
@@ -90,6 +97,12 @@ layout: true
 </video>
 </div>
 
+--
+
+style: middle, center
+
+#### Diffusion Tensor Model
+
 ---
 
 layout: true
@@ -99,37 +112,54 @@ layout: true
 
 ---
 
+### An alternative: Diffusion Kurtosis (Jensen, 2005)
 
+--
 
-
-
----
-
-
-### Dipy
-
+<div style="position: absolute; left: 100px; top: 120px;">
 <image src="images/dipy-logo.png"  height="10%">
+</div>
 
-### Google Summer of Code
+--
 
-<image src="images/Google_Summer_Of_Code_2015.jpg"  height="50%">
+<div style="position: absolute; left: 100px; top: 300px;">
 
-## Rafael Neto Henriques
+<image src="images/Google_Summer_Of_Code_2015.jpg"  height="40%">
+Rafael Neto Henriques
+</div>
+
+--
 
 ---
 
-### The human connectome project : a brain observatory
+## Model selection with cross-validation
+
+
+<div style="position: absolute; left: 500px; top: 650px;" >
+  <small>Rokem et al. (2015)</small>
+</div>
+
+<image src="images/rokem_rrmse.png" height="30%">
+
+--
+
+<a href="http://nipy.org/dipy/examples_built/kfold_xval.html">DIPY K-fold cross-validation</a>
 
 ---
 
-### Lots of data
+## 5-fold cross-validation on 900 subjects
 
-<image src="images/vanhorn-toga-2014.png" height=400px>
-<p><small>Van Horn and Toga (2014)</small></p>
+<image src="images/spark-logo-trademark.png" height="100px">
+<image src="images/AWS.png" height="20%">
 
+<a href="https://github.com/arokem/dki-accuracy-reliability">Github code repository</a>
+
+---
+
+<image src="images/DKI_DTI.png" height"100%">
 
 ---
 
 class: center, middle
 
-# Don't forget to vote
+# THANK YOU
