@@ -7,7 +7,7 @@ class: center, middle
 ## Ariel Rokem
 ### The University of Washington eScience Institute
 
-<small>Follow along at: <a href="https://arokem.github.io/msdse-summit-lightning-mri/">https://arokem.github.io/msdse-summit-lightning-mri/</small>
+<small>Follow along at: <a href="https://arokem.github.io/2016-10-24-lightning-mri">https://arokem.github.io/2016-10-24-lightning-mri</small>
 
 ---
 
